@@ -1,3 +1,8 @@
+.menu {
+    width: 750px;
+    height: 50px;
+}
+
 ul.ddmenu {
     margin: 0px;
     padding: 0px 0px 0px 15px;
@@ -40,4 +45,16 @@ ul.ddmenu li:hover ul {
 ul.ddmenu ul li {
     width: 125px;
     border-top: 1px solid pink;
+}
+
+ul.ddmenu ul li a {
+    line-height: 35px;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: normal;
+}
+
+ul.ddmenu ul li a:hover {
+    background-color: #ffff80;
+    color: #005500;
 }
