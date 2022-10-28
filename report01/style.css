@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+}
+
+video {
+    position: fixed;
+    z-index: -2;
+    width: 177.77777778vh;
+}
+
+.top{
+    position:absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#fff;
+    text-shadow: 0 0 15px #666;
+}
+
+.main-contents {
+    background:#fff;
+    padding: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+    text-align: center;
+}
